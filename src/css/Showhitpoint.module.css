@@ -1,0 +1,38 @@
+.container {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    color: white;
+}
+
+.hitpoint_image {
+    width: 100%;
+    height: 30vh;
+}
+
+.hitpoint_image img {
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.hitpoint_image p {
+    font-size: 28px;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid;
+    box-shadow: 19px 3px 13px #999999;
+}
+
+.showMyHitpoint {
+    font-size: 48px;
+    position: absolute;
+    top: 16px;
+    left: 150px;
+    font-family: 'Dela Gothic One', cursive;
+    color: black;
+}

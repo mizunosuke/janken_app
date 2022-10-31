@@ -1,0 +1,11 @@
+.container {
+    color: black;
+}
+
+.ul {
+    flex-direction: column;
+}
+
+.container li {
+    list-style-type: square; 
+}

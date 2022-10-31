@@ -1,0 +1,75 @@
+.container {
+    width :100%;
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    background-image: url("../images/bakuha.png");
+    background-size: cover;
+}
+
+.header_image {
+    width: 15%;
+    height: auto;
+}
+
+.header_image img {
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.title {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+    font-family: 'Dela Gothic One', cursive;
+    margin: 0 auto;
+    color: white;
+    text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+    height: 60vh;
+    margin: 20px 0;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 13px 4px 13px #999999;
+}
+
+.main_title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_title h2 {
+    font-size: 100px;
+    font-family: 'Dela Gothic One', cursive;
+    font-weight: normal;
+    margin-top: 35px;
+
+}
+
+.btn {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

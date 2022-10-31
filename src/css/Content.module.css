@@ -1,0 +1,219 @@
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.battle {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    background-image: url("../images/black-pattern-backgrounds.jpeg");
+    background-size: cover;
+}
+
+.myself {
+    width: 30%;
+}
+
+.myself img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.yaruki {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 23px 7px 22px #ff0000;
+    border-radius: 10px;
+    background-color:#ea5549;
+}
+
+.result {
+    width: 40%;
+}
+
+.opponent {
+    width: 30%;
+}
+
+.opponent img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.log {
+    width: 100%;
+    height: 20vh;
+}
+
+.loseimage {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    animation: fadein 5s forwards;
+}
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+.loseimage h1 {
+    font-size: 72px;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+}
+
+.loseimage p {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+}
+
+.loseimage img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -100px;
+    left: -80px;
+    z-index: -1;
+}
+
+/* winimage */
+.winimage {
+    width: 100%;
+    height: 100vh;
+    animation: fadein 5s forwards;
+    background-image: url("../images/win_image.jpeg");
+    background-size: cover;
+}
+
+@keyframes fadein {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+
+.winimage h1, p {
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bold;
+}
+
+.winimage h1 {
+    font-size: 72px;
+    text-align: center;
+}
+
+.winimage p {
+    font-size: 36px;
+    text-align: center;
+}
+
+.winimage img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+
+.moji {
+    width: 50%;
+}
+
+.retry {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* btnのcss */
+a.btn_border {
+    border: 2px solid #000;
+    border-radius: 0;
+    background: #fff;
+  
+    -webkit-transform-style: preserve-3d;
+  
+    transform-style: preserve-3d;
+  }
+  
+  a.btn_border:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 15px;
+    height: 100%;
+  
+    content: '';
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: translateX(0) translateY(0);
+    transform: translateX(0) translateY(0);
+  
+    border-radius: 0 50% 50% 0;
+    background: #000;
+  }
+  
+  a.btn_border:hover:before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    line-height: 30px;
+  
+    width: 30px;
+    height: 30px;
+  
+    content: '\f061';
+    -webkit-transform: translateX(460%) translateY(.5rem);
+    transform: translateX(460%) translateY(.5rem);
+  
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  *,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;/*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+  

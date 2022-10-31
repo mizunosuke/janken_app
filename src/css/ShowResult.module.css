@@ -1,0 +1,25 @@
+.container {
+    widht: 100%;
+    margin: 0;
+    color: white;
+}
+
+.result {
+    width: 100%;
+    margin :0;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'DotGothic16', sans-serif;
+}
+
+.showDamage {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'DotGothic16', sans-serif;
+}
